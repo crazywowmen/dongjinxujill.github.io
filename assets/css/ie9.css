@@ -79,12 +79,12 @@
 
 	#contact:after {
 		content: '';
-		display: block;
-		clear: both;
+		/* display: block; */
+		/* clear: both; */
 	}
 
 	#contact > .inner > * {
-		float: left;
+		/* float: left; */
 	}
 
 /* Menu */

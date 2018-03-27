@@ -3656,6 +3656,7 @@
 	#contact {
 		border-bottom: solid 1px rgba(212, 212, 255, 0.1);
 		overflow-x: hidden;
+
 	}
 
 		#contact > .inner {
@@ -3668,17 +3669,18 @@
 
 			#contact > .inner > :nth-child(2n - 1) {
 				padding: 4em 3em 2em 0 ;
-				border-right: solid 1px rgba(212, 212, 255, 0.1);
-				width: 60%;
+				/* border-right: solid 1px rgba(212, 212, 255, 0.1); */
+				/* width: 60%; */
 			}
 
 			#contact > .inner > :nth-child(2n) {
 				padding-left: 3em;
-				width: 40%;
+				/* width: 40%; */
 			}
 
 			#contact > .inner > .split {
 				padding: 0;
+
 			}
 
 				#contact > .inner > .split > * {
@@ -3986,3 +3988,14 @@
 			opacity: 1;
 			visibility: visible;
 		}
+
+.split{
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+
+ul.icons {
+	display: flex;
+	justify-content: center;
+}
